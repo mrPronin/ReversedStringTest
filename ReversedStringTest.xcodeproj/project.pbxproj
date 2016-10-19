@@ -13,6 +13,7 @@
 		3EE4BA7E1DB7C93400E9AD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE4BA7C1DB7C93400E9AD98 /* Main.storyboard */; };
 		3EE4BA801DB7C93400E9AD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE4BA7F1DB7C93400E9AD98 /* Assets.xcassets */; };
 		3EE4BA831DB7C93400E9AD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE4BA811DB7C93400E9AD98 /* LaunchScreen.storyboard */; };
+		3EE4BA8C1DB7CFC000E9AD98 /* NSString+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4BA8B1DB7CFC000E9AD98 /* NSString+Reverse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3EE4BA7F1DB7C93400E9AD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE4BA821DB7C93400E9AD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EE4BA841DB7C93400E9AD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE4BA8A1DB7CFC000E9AD98 /* NSString+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Reverse.h"; sourceTree = "<group>"; };
+		3EE4BA8B1DB7CFC000E9AD98 /* NSString+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Reverse.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				3EE4BA771DB7C93400E9AD98 /* AppDelegate.m */,
 				3EE4BA791DB7C93400E9AD98 /* ViewController.h */,
 				3EE4BA7A1DB7C93400E9AD98 /* ViewController.m */,
+				3EE4BA8A1DB7CFC000E9AD98 /* NSString+Reverse.h */,
+				3EE4BA8B1DB7CFC000E9AD98 /* NSString+Reverse.m */,
 				3EE4BA7C1DB7C93400E9AD98 /* Main.storyboard */,
 				3EE4BA7F1DB7C93400E9AD98 /* Assets.xcassets */,
 				3EE4BA811DB7C93400E9AD98 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE4BA8C1DB7CFC000E9AD98 /* NSString+Reverse.m in Sources */,
 				3EE4BA7B1DB7C93400E9AD98 /* ViewController.m in Sources */,
 				3EE4BA781DB7C93400E9AD98 /* AppDelegate.m in Sources */,
 				3EE4BA751DB7C93400E9AD98 /* main.m in Sources */,

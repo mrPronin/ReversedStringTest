@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Reverse.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *initialStringTextField;
+@property (weak, nonatomic) IBOutlet UILabel *reversedStringLabel;
+
+- (IBAction)reverseStringAction:(id)sender;
 
 @end
 
@@ -16,7 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.initialStringTextField.text = @"Apple is ";
+    
 }
 
 
@@ -25,5 +33,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Actions
+
+- (IBAction)reverseStringAction:(id)sender {
+    self.reversedStringLabel.text = [NSString reversedStringWithString:self.initialStringTextField.text];
+}
 
 @end
